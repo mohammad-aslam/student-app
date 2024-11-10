@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>student app</title>
+</head>
+<body>
+<h1>update details</h1>
+<form method="POST" enctype="application/x-www-form-urlencoded">
+    <label for="name">name:</label>
+    <input type="text" id="name" name="name" value="{{ task.name}}" required><br><br>
+
+    <label for="branch">branch:</label>
+    <input type="text" id="branch" name="branch" value="{{task.branch}}" required><br><br>
+
+    <label for="sem">sem:</label>
+    <input type="text" id="sem" name="sem" value="{{task.sem}}" required><br><br>
+
+    <input type="submit" value="update"> <a href="/">All student details</a>
+</form>
+</body>
+</html>

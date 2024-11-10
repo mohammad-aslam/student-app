@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>student app</title>
+</head>
+<body>
+<h1>adding new student</h1>
+<form action="/submit" method="POST" enctype="application/x-www-form-urlencoded">
+    <label for="name">name:</label>
+    <input type="text" id="name" name="name" required><br><br>
+
+    <label for="branch">branch:</label>
+    <input type="text" id="branch" name="branch" required><br><br>
+
+    <label for="sem">sem:</label>
+    <input type="text" id="sem" name="sem" required><br><br>
+
+    <input type="submit" value="Submit"> <a href="/">All students</a>
+</form>
+</body>
+</html>

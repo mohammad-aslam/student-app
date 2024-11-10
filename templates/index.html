@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>student app</title>
+</head>
+<body>
+<h1>listing the number of students here</h1>
+<button type="button"><a href="/add-student">add new student</a></button>
+{% for task in tasks %}
+<ul>
+    <li>{{task.usn}} - {{task.age}}</li>
+</ul>
+{% endfor %}
+</body>
+</html>
